@@ -5,7 +5,7 @@ class View:
     def __init__(self, page: ft.Page):
         super().__init__()
         self._page = page
-        self._page.title = "Programmazione Avanzata - Secondo Appello - Artisti"
+        self._page.title = "Programmazione Avanzata - Secondo Appello - Artisti "
         self._page.horizontal_alignment = 'CENTER'
         self._page.theme_mode = ft.ThemeMode.DARK
 
