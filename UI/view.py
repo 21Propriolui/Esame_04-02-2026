@@ -64,8 +64,10 @@ class View:
             row2,
             row3,
             self.list_risultato
-        )
 
+        )
+        ruoli = self._controller.handle_popola_dropdown_ruolo()
+        self.popola_dropdown_ruolo(ruoli)
         self._page.scroll = "adaptive"
         self._page.update()
 
