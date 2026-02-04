@@ -7,7 +7,7 @@ class Model:
         self.artists = []
 
     def build_graph(self, role: str):
-        pass
+
 
     def classifica(self):
         pass
